@@ -2,7 +2,7 @@
 # FORMAT: Surge / Shadowrocket RULE-SET, no per-line policy (uses the rule-set policy, e.g. DIRECT)
 # UPDATED: 2026-11-27
 # RULES: 3715
-# NOTE: stock blackmatrix7 China.list with `,China` policy stripped + missing domains added (deepseek.com, feishu.cn, feishu.com, wechat.com, mifile.cn); HOST-KEYWORD and USER-AGENT lines dropped
+# NOTE: stock blackmatrix7 China.list with `,China` policy stripped; v5 (2026-11-28) added missing domains as rules: feishu.cn, mifile.cn, isnssdk.com, wx.qq.com, byte-test.com; HOST-KEYWORD and USER-AGENT lines dropped
 DOMAIN-SUFFIX,00cdn.com
 DOMAIN-SUFFIX,0123456789.com
 DOMAIN-SUFFIX,0379home.com
@@ -3718,3 +3718,8 @@ IP-CIDR6,2a0b:b580::/48
 IP-CIDR6,2a0b:b581::/48
 IP-CIDR6,2a0b:b582::/48
 IP-CIDR6,2a0b:b583::/48
+DOMAIN-SUFFIX,feishu.cn
+DOMAIN-SUFFIX,mifile.cn
+DOMAIN-SUFFIX,isnssdk.com
+DOMAIN-SUFFIX,wx.qq.com
+DOMAIN-SUFFIX,byte-test.com
